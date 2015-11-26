@@ -34,7 +34,8 @@ typedef void (^NetWorkBlock)(BOOL netConnetState);
 #define MFDB @"mf.db"
 
 //*************************************网络请求宏定义*********************************
-#define kBaseURL        @"http://10.2.21.231:8080/"
+//#define kBaseURL        @"http://10.2.21.231:8080/"
+#define kBaseURL        @"http://cn.asiatravel.net/mobile/"
 #define kBaseFrameURL   @"http://10.2.21.231/frame"
 
 //*************************************通知宏定义*********************************

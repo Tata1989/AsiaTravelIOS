@@ -178,11 +178,11 @@
 		12B77A271C069A2A00B74204 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				12B77A281C069A6E00B74204 /* Category */,
+				12B77A321C069A9400B74204 /* GlobalTools */,
 				12B77A461C069B1000B74204 /* Widgets */,
 				12B77A431C069AE200B74204 /* Config */,
 				12B77A361C069AC000B74204 /* BaseVC */,
-				12B77A321C069A9400B74204 /* GlobalTools */,
-				12B77A281C069A6E00B74204 /* Category */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

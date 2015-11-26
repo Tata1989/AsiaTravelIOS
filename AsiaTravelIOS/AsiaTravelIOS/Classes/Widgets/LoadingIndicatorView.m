@@ -58,6 +58,10 @@
 - (void)reloadAction:(UIButton*)btn{
     btn.hidden = YES;
     [self startAnimation];
+    
+    if (self.loadResultBlock) {
+        self.loadResultBlock(LoadResultStateFailed);
+    }
 }
 
 - (void)startAnimation
@@ -97,6 +101,7 @@
         _reloadBtn.hidden = NO;
         
     }
+
     
 }
 

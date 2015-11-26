@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 typedef enum LoadResultState{
     
     LoadResultStateSuccess,                //加载成功
@@ -15,10 +16,14 @@ typedef enum LoadResultState{
     
 }LoadResultState;
 
+typedef void(^LoadResultBlock)(LoadResultState state);
+
+
 @interface LoadingIndicatorView : UIView
 
 @property (nonatomic, assign) NSString *loadtext;
 @property (nonatomic, readonly) BOOL isAnimating;
+@property (nonatomic, copy)LoadResultBlock loadResultBlock;
 
 
 //use this to init

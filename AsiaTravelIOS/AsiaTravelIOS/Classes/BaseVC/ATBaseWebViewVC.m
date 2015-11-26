@@ -38,19 +38,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    self.title = self.navigationItemTitle ? self.navigationItemTitle : @"亚洲旅游";
-    
-    
-    _indicator = [[LoadingIndicatorView alloc]initWithFrame:CGRectMake(self.view.frame.size.width/2-40, self.view.frame.size.height/2-50, 80, 100)];
-    [_indicator setLoadText:@"正在加载..."];
-    [self.view addSubview:_indicator];
-     [_indicator startAnimation];
-    
-
     _webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-kNavBarHeight)];
     if (self.navigationController.navigationBarHidden == YES && [self.navigationItemTitle isEqualToString:@"首页"]) {
-       // _webView.frame = CGRectMake(0, -kStatusBarHeight, ScreenWidth, ScreenHeight+kStatusBarHeight);
+        // _webView.frame = CGRectMake(0, -kStatusBarHeight, ScreenWidth, ScreenHeight+kStatusBarHeight);
     }
     DDLog(@"_webView.frame:%@",NSStringFromCGRect(_webView.frame));
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:self.webUrl]];
@@ -60,6 +50,26 @@
     _webView.opaque = NO;
     [self.view addSubview:_webView];
     [_webView loadRequest:request];
+    
+    self.title = self.navigationItemTitle ? self.navigationItemTitle : @"亚洲旅游";
+    
+    
+    _indicator = [[LoadingIndicatorView alloc]initWithFrame:CGRectMake(self.view.frame.size.width/2-40, self.view.frame.size.height/2-50, 80, 100)];
+    [_indicator setLoadText:@"正在加载..."];
+    
+    __weak typeof(_webView) weakWedview = _webView;
+    _indicator.loadResultBlock = ^(LoadResultState state){
+        
+        if (state == LoadResultStateFailed) {
+            [weakWedview reload];
+        }
+    };
+    
+    [self.view addSubview:_indicator];
+     [_indicator startAnimation];
+    
+
+
     
     [self.view bringSubviewToFront:_indicator];
     
