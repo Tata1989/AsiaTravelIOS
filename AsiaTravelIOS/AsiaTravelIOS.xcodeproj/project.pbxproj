@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12B779F61C0698D500B74204 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B779F51C0698D500B74204 /* main.m */; };
+		12B779F91C0698D500B74204 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B779F81C0698D500B74204 /* AppDelegate.m */; };
+		12B779FF1C0698D500B74204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B779FD1C0698D500B74204 /* Main.storyboard */; };
+		12B77A011C0698D500B74204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B77A001C0698D500B74204 /* Assets.xcassets */; };
+		12B77A041C0698D500B74204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B77A021C0698D500B74204 /* LaunchScreen.storyboard */; };
+		12B77A0F1C0698D500B74204 /* AsiaTravelIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B77A0E1C0698D500B74204 /* AsiaTravelIOSTests.m */; };
+		12B77A1A1C0698D500B74204 /* AsiaTravelIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B77A191C0698D500B74204 /* AsiaTravelIOSUITests.m */; };
+		12B77A2F1C069A8A00B74204 /* AFNetworkReachabilityManager+NetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B77A2A1C069A8A00B74204 /* AFNetworkReachabilityManager+NetworkReachability.m */; };
+		12B77A301C069A8A00B74204 /* UIBarButtonItem+AT.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B77A2C1C069A8A00B74204 /* UIBarButtonItem+AT.m */; };
+		12B77A311C069A8A00B74204 /* UIImage+AT.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B77A2E1C069A8A00B74204 /* UIImage+AT.m */; };
+		12B77A351C069ABB00B74204 /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B77A341C069ABB00B74204 /* NetworkTool.m */; };
+		12B77A3F1C069ADD00B74204 /* ATBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B77A381C069ADD00B74204 /* ATBaseController.m */; };
+		12B77A401C069ADD00B74204 /* ATBaseWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B77A3A1C069ADD00B74204 /* ATBaseWebViewVC.m */; };
+		12B77A411C069ADD00B74204 /* ATNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B77A3C1C069ADD00B74204 /* ATNavigationController.m */; };
+		12B77A421C069ADD00B74204 /* ATTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B77A3E1C069ADD00B74204 /* ATTabBarController.m */; };
+		12B77A491C069B2E00B74204 /* LoadingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B77A481C069B2E00B74204 /* LoadingIndicatorView.m */; };
+		12B77A4C1C069D5B00B74204 /* MBProgressHUD+AT.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B77A4B1C069D5B00B74204 /* MBProgressHUD+AT.m */; };
+		DF06883B6CE1FA31A885A09F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C94D423071F06F93D8D8F0A1 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12B77A0B1C0698D500B74204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12B779E91C0698D500B74204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12B779F01C0698D500B74204;
+			remoteInfo = AsiaTravelIOS;
+		};
+		12B77A161C0698D500B74204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12B779E91C0698D500B74204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12B779F01C0698D500B74204;
+			remoteInfo = AsiaTravelIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12B779F11C0698D500B74204 /* AsiaTravelIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsiaTravelIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B779F51C0698D500B74204 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12B779F71C0698D500B74204 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12B779F81C0698D500B74204 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12B779FE1C0698D500B74204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12B77A001C0698D500B74204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12B77A031C0698D500B74204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12B77A051C0698D500B74204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B77A0A1C0698D500B74204 /* AsiaTravelIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsiaTravelIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B77A0E1C0698D500B74204 /* AsiaTravelIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsiaTravelIOSTests.m; sourceTree = "<group>"; };
+		12B77A101C0698D500B74204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B77A151C0698D500B74204 /* AsiaTravelIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsiaTravelIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B77A191C0698D500B74204 /* AsiaTravelIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsiaTravelIOSUITests.m; sourceTree = "<group>"; };
+		12B77A1B1C0698D500B74204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B77A291C069A8A00B74204 /* AFNetworkReachabilityManager+NetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFNetworkReachabilityManager+NetworkReachability.h"; sourceTree = "<group>"; };
+		12B77A2A1C069A8A00B74204 /* AFNetworkReachabilityManager+NetworkReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFNetworkReachabilityManager+NetworkReachability.m"; sourceTree = "<group>"; };
+		12B77A2B1C069A8A00B74204 /* UIBarButtonItem+AT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+AT.h"; sourceTree = "<group>"; };
+		12B77A2C1C069A8A00B74204 /* UIBarButtonItem+AT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+AT.m"; sourceTree = "<group>"; };
+		12B77A2D1C069A8A00B74204 /* UIImage+AT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AT.h"; sourceTree = "<group>"; };
+		12B77A2E1C069A8A00B74204 /* UIImage+AT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AT.m"; sourceTree = "<group>"; };
+		12B77A331C069ABB00B74204 /* NetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
+		12B77A341C069ABB00B74204 /* NetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
+		12B77A371C069ADD00B74204 /* ATBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATBaseController.h; sourceTree = "<group>"; };
+		12B77A381C069ADD00B74204 /* ATBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATBaseController.m; sourceTree = "<group>"; };
+		12B77A391C069ADD00B74204 /* ATBaseWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATBaseWebViewVC.h; sourceTree = "<group>"; };
+		12B77A3A1C069ADD00B74204 /* ATBaseWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATBaseWebViewVC.m; sourceTree = "<group>"; };
+		12B77A3B1C069ADD00B74204 /* ATNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNavigationController.h; sourceTree = "<group>"; };
+		12B77A3C1C069ADD00B74204 /* ATNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNavigationController.m; sourceTree = "<group>"; };
+		12B77A3D1C069ADD00B74204 /* ATTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTabBarController.h; sourceTree = "<group>"; };
+		12B77A3E1C069ADD00B74204 /* ATTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATTabBarController.m; sourceTree = "<group>"; };
+		12B77A441C069AFF00B74204 /* ConfigTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigTools.h; sourceTree = "<group>"; };
+		12B77A451C069AFF00B74204 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		12B77A471C069B2E00B74204 /* LoadingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingIndicatorView.h; sourceTree = "<group>"; };
+		12B77A481C069B2E00B74204 /* LoadingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingIndicatorView.m; sourceTree = "<group>"; };
+		12B77A4A1C069D5B00B74204 /* MBProgressHUD+AT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+AT.h"; sourceTree = "<group>"; };
+		12B77A4B1C069D5B00B74204 /* MBProgressHUD+AT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+AT.m"; sourceTree = "<group>"; };
+		1BFD56F05AA85DBFA2051890 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C94D423071F06F93D8D8F0A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45CB7A8BEF5E1224BA22CEA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12B779EE1C0698D500B74204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF06883B6CE1FA31A885A09F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B77A071C0698D500B74204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B77A121C0698D500B74204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12B779E81C0698D500B74204 = {
+			isa = PBXGroup;
+			children = (
+				12B779F31C0698D500B74204 /* AsiaTravelIOS */,
+				12B77A0D1C0698D500B74204 /* AsiaTravelIOSTests */,
+				12B77A181C0698D500B74204 /* AsiaTravelIOSUITests */,
+				12B779F21C0698D500B74204 /* Products */,
+				802856172AF6C1D5287DC469 /* Pods */,
+				EA841B3F3390BE66D3107C84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12B779F21C0698D500B74204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12B779F11C0698D500B74204 /* AsiaTravelIOS.app */,
+				12B77A0A1C0698D500B74204 /* AsiaTravelIOSTests.xctest */,
+				12B77A151C0698D500B74204 /* AsiaTravelIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12B779F31C0698D500B74204 /* AsiaTravelIOS */ = {
+			isa = PBXGroup;
+			children = (
+				12B77A271C069A2A00B74204 /* Classes */,
+				12B779F71C0698D500B74204 /* AppDelegate.h */,
+				12B779F81C0698D500B74204 /* AppDelegate.m */,
+				12B779FD1C0698D500B74204 /* Main.storyboard */,
+				12B77A001C0698D500B74204 /* Assets.xcassets */,
+				12B77A021C0698D500B74204 /* LaunchScreen.storyboard */,
+				12B77A051C0698D500B74204 /* Info.plist */,
+				12B779F41C0698D500B74204 /* Supporting Files */,
+			);
+			path = AsiaTravelIOS;
+			sourceTree = "<group>";
+		};
+		12B779F41C0698D500B74204 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12B779F51C0698D500B74204 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12B77A0D1C0698D500B74204 /* AsiaTravelIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				12B77A0E1C0698D500B74204 /* AsiaTravelIOSTests.m */,
+				12B77A101C0698D500B74204 /* Info.plist */,
+			);
+			path = AsiaTravelIOSTests;
+			sourceTree = "<group>";
+		};
+		12B77A181C0698D500B74204 /* AsiaTravelIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12B77A191C0698D500B74204 /* AsiaTravelIOSUITests.m */,
+				12B77A1B1C0698D500B74204 /* Info.plist */,
+			);
+			path = AsiaTravelIOSUITests;
+			sourceTree = "<group>";
+		};
+		12B77A271C069A2A00B74204 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				12B77A461C069B1000B74204 /* Widgets */,
+				12B77A431C069AE200B74204 /* Config */,
+				12B77A361C069AC000B74204 /* BaseVC */,
+				12B77A321C069A9400B74204 /* GlobalTools */,
+				12B77A281C069A6E00B74204 /* Category */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		12B77A281C069A6E00B74204 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				12B77A291C069A8A00B74204 /* AFNetworkReachabilityManager+NetworkReachability.h */,
+				12B77A2A1C069A8A00B74204 /* AFNetworkReachabilityManager+NetworkReachability.m */,
+				12B77A2B1C069A8A00B74204 /* UIBarButtonItem+AT.h */,
+				12B77A2C1C069A8A00B74204 /* UIBarButtonItem+AT.m */,
+				12B77A2D1C069A8A00B74204 /* UIImage+AT.h */,
+				12B77A2E1C069A8A00B74204 /* UIImage+AT.m */,
+				12B77A4A1C069D5B00B74204 /* MBProgressHUD+AT.h */,
+				12B77A4B1C069D5B00B74204 /* MBProgressHUD+AT.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		12B77A321C069A9400B74204 /* GlobalTools */ = {
+			isa = PBXGroup;
+			children = (
+				12B77A331C069ABB00B74204 /* NetworkTool.h */,
+				12B77A341C069ABB00B74204 /* NetworkTool.m */,
+			);
+			path = GlobalTools;
+			sourceTree = "<group>";
+		};
+		12B77A361C069AC000B74204 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				12B77A371C069ADD00B74204 /* ATBaseController.h */,
+				12B77A381C069ADD00B74204 /* ATBaseController.m */,
+				12B77A391C069ADD00B74204 /* ATBaseWebViewVC.h */,
+				12B77A3A1C069ADD00B74204 /* ATBaseWebViewVC.m */,
+				12B77A3B1C069ADD00B74204 /* ATNavigationController.h */,
+				12B77A3C1C069ADD00B74204 /* ATNavigationController.m */,
+				12B77A3D1C069ADD00B74204 /* ATTabBarController.h */,
+				12B77A3E1C069ADD00B74204 /* ATTabBarController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		12B77A431C069AE200B74204 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				12B77A441C069AFF00B74204 /* ConfigTools.h */,
+				12B77A451C069AFF00B74204 /* PrefixHeader.pch */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		12B77A461C069B1000B74204 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				12B77A471C069B2E00B74204 /* LoadingIndicatorView.h */,
+				12B77A481C069B2E00B74204 /* LoadingIndicatorView.m */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		802856172AF6C1D5287DC469 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F45CB7A8BEF5E1224BA22CEA /* Pods.debug.xcconfig */,
+				1BFD56F05AA85DBFA2051890 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA841B3F3390BE66D3107C84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C94D423071F06F93D8D8F0A1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12B779F01C0698D500B74204 /* AsiaTravelIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B77A1E1C0698D500B74204 /* Build configuration list for PBXNativeTarget "AsiaTravelIOS" */;
+			buildPhases = (
+				ACEE6DFFEBB3B99C84A09625 /* Check Pods Manifest.lock */,
+				12B779ED1C0698D500B74204 /* Sources */,
+				12B779EE1C0698D500B74204 /* Frameworks */,
+				12B779EF1C0698D500B74204 /* Resources */,
+				391C738611AF5C8DC3E1FBAE /* Embed Pods Frameworks */,
+				6C43106924FB81D95D21F95E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsiaTravelIOS;
+			productName = AsiaTravelIOS;
+			productReference = 12B779F11C0698D500B74204 /* AsiaTravelIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12B77A091C0698D500B74204 /* AsiaTravelIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B77A211C0698D500B74204 /* Build configuration list for PBXNativeTarget "AsiaTravelIOSTests" */;
+			buildPhases = (
+				12B77A061C0698D500B74204 /* Sources */,
+				12B77A071C0698D500B74204 /* Frameworks */,
+				12B77A081C0698D500B74204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12B77A0C1C0698D500B74204 /* PBXTargetDependency */,
+			);
+			name = AsiaTravelIOSTests;
+			productName = AsiaTravelIOSTests;
+			productReference = 12B77A0A1C0698D500B74204 /* AsiaTravelIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12B77A141C0698D500B74204 /* AsiaTravelIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B77A241C0698D500B74204 /* Build configuration list for PBXNativeTarget "AsiaTravelIOSUITests" */;
+			buildPhases = (
+				12B77A111C0698D500B74204 /* Sources */,
+				12B77A121C0698D500B74204 /* Frameworks */,
+				12B77A131C0698D500B74204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12B77A171C0698D500B74204 /* PBXTargetDependency */,
+			);
+			name = AsiaTravelIOSUITests;
+			productName = AsiaTravelIOSUITests;
+			productReference = 12B77A151C0698D500B74204 /* AsiaTravelIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12B779E91C0698D500B74204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = asiatravel;
+				TargetAttributes = {
+					12B779F01C0698D500B74204 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = QLF55CMF4K;
+					};
+					12B77A091C0698D500B74204 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = QLF55CMF4K;
+						TestTargetID = 12B779F01C0698D500B74204;
+					};
+					12B77A141C0698D500B74204 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = QLF55CMF4K;
+						TestTargetID = 12B779F01C0698D500B74204;
+					};
+				};
+			};
+			buildConfigurationList = 12B779EC1C0698D500B74204 /* Build configuration list for PBXProject "AsiaTravelIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12B779E81C0698D500B74204;
+			productRefGroup = 12B779F21C0698D500B74204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12B779F01C0698D500B74204 /* AsiaTravelIOS */,
+				12B77A091C0698D500B74204 /* AsiaTravelIOSTests */,
+				12B77A141C0698D500B74204 /* AsiaTravelIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12B779EF1C0698D500B74204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B77A041C0698D500B74204 /* LaunchScreen.storyboard in Resources */,
+				12B77A011C0698D500B74204 /* Assets.xcassets in Resources */,
+				12B779FF1C0698D500B74204 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B77A081C0698D500B74204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B77A131C0698D500B74204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		391C738611AF5C8DC3E1FBAE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C43106924FB81D95D21F95E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACEE6DFFEBB3B99C84A09625 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12B779ED1C0698D500B74204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B77A421C069ADD00B74204 /* ATTabBarController.m in Sources */,
+				12B77A351C069ABB00B74204 /* NetworkTool.m in Sources */,
+				12B77A4C1C069D5B00B74204 /* MBProgressHUD+AT.m in Sources */,
+				12B77A3F1C069ADD00B74204 /* ATBaseController.m in Sources */,
+				12B77A491C069B2E00B74204 /* LoadingIndicatorView.m in Sources */,
+				12B77A311C069A8A00B74204 /* UIImage+AT.m in Sources */,
+				12B77A2F1C069A8A00B74204 /* AFNetworkReachabilityManager+NetworkReachability.m in Sources */,
+				12B77A411C069ADD00B74204 /* ATNavigationController.m in Sources */,
+				12B779F91C0698D500B74204 /* AppDelegate.m in Sources */,
+				12B77A301C069A8A00B74204 /* UIBarButtonItem+AT.m in Sources */,
+				12B779F61C0698D500B74204 /* main.m in Sources */,
+				12B77A401C069ADD00B74204 /* ATBaseWebViewVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B77A061C0698D500B74204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B77A0F1C0698D500B74204 /* AsiaTravelIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B77A111C0698D500B74204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B77A1A1C0698D500B74204 /* AsiaTravelIOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12B77A0C1C0698D500B74204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12B779F01C0698D500B74204 /* AsiaTravelIOS */;
+			targetProxy = 12B77A0B1C0698D500B74204 /* PBXContainerItemProxy */;
+		};
+		12B77A171C0698D500B74204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12B779F01C0698D500B74204 /* AsiaTravelIOS */;
+			targetProxy = 12B77A161C0698D500B74204 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12B779FD1C0698D500B74204 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12B779FE1C0698D500B74204 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12B77A021C0698D500B74204 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12B77A031C0698D500B74204 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12B77A1C1C0698D500B74204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12B77A1D1C0698D500B74204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12B77A1F1C0698D500B74204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F45CB7A8BEF5E1224BA22CEA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AsiaTravelIOS/Classes/Config/PrefixHeader.pch";
+				INFOPLIST_FILE = AsiaTravelIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiatravel.AsiaTravelIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12B77A201C0698D500B74204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BFD56F05AA85DBFA2051890 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AsiaTravelIOS/Classes/Config/PrefixHeader.pch";
+				INFOPLIST_FILE = AsiaTravelIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiatravel.AsiaTravelIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12B77A221C0698D500B74204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AsiaTravelIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiatravel.AsiaTravelIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsiaTravelIOS.app/AsiaTravelIOS";
+			};
+			name = Debug;
+		};
+		12B77A231C0698D500B74204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AsiaTravelIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiatravel.AsiaTravelIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsiaTravelIOS.app/AsiaTravelIOS";
+			};
+			name = Release;
+		};
+		12B77A251C0698D500B74204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AsiaTravelIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiatravel.AsiaTravelIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AsiaTravelIOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		12B77A261C0698D500B74204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AsiaTravelIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiatravel.AsiaTravelIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AsiaTravelIOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12B779EC1C0698D500B74204 /* Build configuration list for PBXProject "AsiaTravelIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B77A1C1C0698D500B74204 /* Debug */,
+				12B77A1D1C0698D500B74204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12B77A1E1C0698D500B74204 /* Build configuration list for PBXNativeTarget "AsiaTravelIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B77A1F1C0698D500B74204 /* Debug */,
+				12B77A201C0698D500B74204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12B77A211C0698D500B74204 /* Build configuration list for PBXNativeTarget "AsiaTravelIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B77A221C0698D500B74204 /* Debug */,
+				12B77A231C0698D500B74204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12B77A241C0698D500B74204 /* Build configuration list for PBXNativeTarget "AsiaTravelIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B77A251C0698D500B74204 /* Debug */,
+				12B77A261C0698D500B74204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12B779E91C0698D500B74204 /* Project object */;
+}
