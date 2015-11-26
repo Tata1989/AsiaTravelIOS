@@ -31,15 +31,17 @@
 
 - (void)setupAllChildViewControllers
 {
-    NSArray *titleArray = @[@"首页", @"订单", @"客服",@"我的"];
+    NSArray *titleArray = @[@"首页", @"订单", @"发现",@"我的"];
     NSArray *urlStrArray =@[@"", @"order.html", @"service.html",@"user.html"];
+    NSArray *normalImageArray =@[@"tabbar_home_normal", @"tabbar_order_normal", @"tabbar_find_normal",@"tabbar_mine_normal"];
+    NSArray *selectedImageArray =@[@"tabbar_home_selected", @"tabbar_order_selected", @"tabbar_find_selected",@"tabbar_mine_selected"];
     
     for (int i = 0; i < titleArray.count; i++) {
          ATBaseWebViewVC *tmpVC = [[ATBaseWebViewVC alloc] init];
         tmpVC.canBack = NO;
         tmpVC.navigationItemTitle = titleArray[i];
         tmpVC.webUrl = [NSString stringWithFormat:@"%@%@",kBaseURL,urlStrArray[i]];
-        [self setupChildViewController:tmpVC title:titleArray[i] imageName:@"tabbar_mine_normal"  selectedImageName:@"tabbar_mine_selected"];
+        [self setupChildViewController:tmpVC title:titleArray[i] imageName:normalImageArray[i]  selectedImageName:selectedImageArray[i]];
 
     }
     
@@ -57,8 +59,8 @@
     // 1.设置控制器的属性
     childVc.title = title;
     
-    [childVc.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x666666),NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
-    [childVc.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x32b4c2),NSForegroundColorAttributeName, nil] forState:UIControlStateSelected];
+    [childVc.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x484848),NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
+    [childVc.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0xffb413),NSForegroundColorAttributeName, nil] forState:UIControlStateSelected];
     [childVc.tabBarItem setTitlePositionAdjustment:UIOffsetMake(0, 0)];
     
     // 设置图标

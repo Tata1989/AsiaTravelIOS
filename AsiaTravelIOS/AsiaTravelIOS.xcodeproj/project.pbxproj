@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120A95341C06FF6300827446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120A95331C06FF6300827446 /* Assets.xcassets */; };
 		12B779F61C0698D500B74204 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B779F51C0698D500B74204 /* main.m */; };
 		12B779F91C0698D500B74204 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B779F81C0698D500B74204 /* AppDelegate.m */; };
 		12B779FF1C0698D500B74204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B779FD1C0698D500B74204 /* Main.storyboard */; };
-		12B77A011C0698D500B74204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B77A001C0698D500B74204 /* Assets.xcassets */; };
 		12B77A041C0698D500B74204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B77A021C0698D500B74204 /* LaunchScreen.storyboard */; };
 		12B77A0F1C0698D500B74204 /* AsiaTravelIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B77A0E1C0698D500B74204 /* AsiaTravelIOSTests.m */; };
 		12B77A1A1C0698D500B74204 /* AsiaTravelIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B77A191C0698D500B74204 /* AsiaTravelIOSUITests.m */; };
@@ -45,12 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		120A95331C06FF6300827446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12B779F11C0698D500B74204 /* AsiaTravelIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsiaTravelIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B779F51C0698D500B74204 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		12B779F71C0698D500B74204 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		12B779F81C0698D500B74204 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		12B779FE1C0698D500B74204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		12B77A001C0698D500B74204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12B77A031C0698D500B74204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12B77A051C0698D500B74204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12B77A0A1C0698D500B74204 /* AsiaTravelIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsiaTravelIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,9 +141,9 @@
 				12B779F71C0698D500B74204 /* AppDelegate.h */,
 				12B779F81C0698D500B74204 /* AppDelegate.m */,
 				12B779FD1C0698D500B74204 /* Main.storyboard */,
-				12B77A001C0698D500B74204 /* Assets.xcassets */,
 				12B77A021C0698D500B74204 /* LaunchScreen.storyboard */,
 				12B77A051C0698D500B74204 /* Info.plist */,
+				120A95331C06FF6300827446 /* Assets.xcassets */,
 				12B779F41C0698D500B74204 /* Supporting Files */,
 			);
 			path = AsiaTravelIOS;
@@ -371,7 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12B77A041C0698D500B74204 /* LaunchScreen.storyboard in Resources */,
-				12B77A011C0698D500B74204 /* Assets.xcassets in Resources */,
+				120A95341C06FF6300827446 /* Assets.xcassets in Resources */,
 				12B779FF1C0698D500B74204 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

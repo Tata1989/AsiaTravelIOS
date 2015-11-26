@@ -74,6 +74,7 @@
                 
                 NSDictionary *dic = [placemark addressDictionary];
                 //  Country(国家)  State(城市)  SubLocality(区)
+                
                 if (![[[NSUserDefaults standardUserDefaults] objectForKey:@"gpsCity"] isEqualToString:[dic objectForKey:@"State"]]) {
                     DDLog(@"城市：%@ 区：%@",[dic objectForKey:@"State"],[dic objectForKey:@"SubLocality"]);
                     
